@@ -18,6 +18,6 @@ The code takes for granted all the data is present in the same folder, un-compre
   4. Appropriately labels the data set with descriptive activity names.
   5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-* The output of the 5th step is called `avg_data.txt`, and uploaded in the Course Project's form.
+* The output of the 5th step is called `avg_data.txt` and uploaded in the Course Project's form.
 
 [Human Activity Recognition Using Smartphones]: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
