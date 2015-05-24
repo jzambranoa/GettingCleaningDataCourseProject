@@ -34,4 +34,4 @@ A full description of the features is best obtained from the file `features_info
 
 ###Data set `avg_data`
 
-The observations from `data` were grouped by activity and subject and then aggregated using the mean function. This yields 180 rows (30 subjects x 6 activities) and 68 columns (1 for subject, 1 for activity plus 66 aggregated features). 
+The observations from `data` were grouped by activity and subject and then aggregated using the mean function. This yields 180 rows (30 subjects x 6 activities) and 68 columns (1 for activity, 1 for subject plus 66 aggregated features).
