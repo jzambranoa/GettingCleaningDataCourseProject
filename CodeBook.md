@@ -8,7 +8,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The dataset `avg_data.txt` is the result of cleaning and selecting data. Here follows a description of what  looks `avg_data.txt` like:
 
-1. The first variable activity denotes the activity performed by the subject. There are six activites, listed here:
+1. The first variable activity denotes the activity performed by the subject. There are 6 activites, listed here:
 
  * WALKING
  * WALKING_UPSTAIRS
@@ -17,17 +17,17 @@ The dataset `avg_data.txt` is the result of cleaning and selecting data. Here fo
  * STANDING
  * LAYING
 
-2. The first variable subject denotes the subject number that performed an activity. In total there are 30 subjects.
+2. The second variable subject denotes the subject number that performed an activity. In total there are 30 subjects.
 
-A total of 66 features were selected from the original data: only the estimated mean and standard deviations, using a `grep` on `-mean()|-std()`. These features form the 66 other variables in the dataset, making a total of 68 columns. The feature names from the original data have been rewritten, using the following rules:
+A total of 66 features were selected from the original data: Only the estimated mean and standard deviations, using a `grep` on `-mean()|-std()`. These features form the 66 other variables in the dataset, making a total of 68 columns. The feature names from the original data have been rewritten, using the following rules:
 
-dashes and parentheses have been removed
-mean() has been replaced by Mean
-std() has been replaced by Std
+* dashes and parentheses have been removed
+* mean() has been replaced by Mean
+* std() has been replaced by Std
 
 For example:
 
-`tBodyAcc-mean()-X` becomes `tBodyAccMeanX`
-`tBodyAcc-std()-Y` becomes `tBodyAccStdY`
+* `tBodyAcc-mean()-X` becomes `tBodyAccMeanX`
+* `tBodyAcc-std()-Y` becomes `tBodyAccStdY`
 
-A full description of the features is best obtained from the file features_info.txt, included with the original dataset.
+A full description of the features is best obtained from the file `features_info.txt`, included with the original dataset.
